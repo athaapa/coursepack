@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import typing_extensions as typing
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from icalendar import Calendar, Event
@@ -624,9 +625,12 @@ def export_calendar(
 
 def generate_plan(config: Dict[str, Any]) -> Dict[str, Any]:
     """Generates a course plan, calendar, and full course repository."""
-    api_key = config.get("gemini_api_key")
+    load_dotenv()
+    api_key = os.getenv("GEMINI_API_KEY") or config.get("gemini_api_key")
     if not api_key:
-        raise ValueError("Missing 'gemini_api_key' in configuration.")
+        raise ValueError(
+            "Missing GEMINI_API_KEY in .env or gemini_api_key in configuration."
+        )
 
     client = genai.Client(api_key=api_key)
 

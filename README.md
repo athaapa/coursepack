@@ -44,12 +44,15 @@ Install LaTeX (pdflatex):
    poetry install
    ```
 
-3. Set up your API key in `config.json`:
-   ```json
-   {
-     "gemini_api_key": "your-api-key-here"
-   }
+3. Set up your API key in a `.env` file:
+
+   Create a `.env` file in the project root and add:
+
    ```
+   GEMINI_API_KEY=your-api-key-here
+   ```
+
+   Alternatively, you can set it in `config.json` as `"gemini_api_key": "your-api-key-here"`.
 
 ## Usage
 
