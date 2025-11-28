@@ -1,0 +1,675 @@
+[
+  {
+    "title": "Building Abstractions with Procedures",
+    "page": 29,
+    "children": [
+      {
+        "title": "The Elements of Programming",
+        "page": 34,
+        "children": [
+          {
+            "title": "Expressions",
+            "page": 35,
+            "children": []
+          },
+          {
+            "title": "Naming and the Environment",
+            "page": 38,
+            "children": []
+          },
+          {
+            "title": "Evaluating Combinations",
+            "page": 40,
+            "children": []
+          },
+          {
+            "title": "Compound Procedures",
+            "page": 43,
+            "children": []
+          },
+          {
+            "title": "The Substitution Model for Procedure Application",
+            "page": 46,
+            "children": []
+          },
+          {
+            "title": "Conditional Expressions and Predicates",
+            "page": 50,
+            "children": []
+          },
+          {
+            "title": "Example: Square Roots by Newton's Method",
+            "page": 56,
+            "children": []
+          },
+          {
+            "title": "Procedures as Black-Box Abstractions",
+            "page": 61,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Procedures and the Processes They Generate",
+        "page": 68,
+        "children": [
+          {
+            "title": "Linear Recursion and Iteration",
+            "page": 69,
+            "children": []
+          },
+          {
+            "title": "Tree Recursion",
+            "page": 75,
+            "children": []
+          },
+          {
+            "title": "Orders of Growth",
+            "page": 82,
+            "children": []
+          },
+          {
+            "title": "Exponentiation",
+            "page": 85,
+            "children": []
+          },
+          {
+            "title": "Greatest Common Divisors",
+            "page": 90,
+            "children": []
+          },
+          {
+            "title": "Example: Testing for Primality",
+            "page": 93,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Formulating Abstractions with Higher-Order Procedures",
+        "page": 102,
+        "children": [
+          {
+            "title": "Procedures as Arguments",
+            "page": 104,
+            "children": []
+          },
+          {
+            "title": "Constructing Procedures Using lambda",
+            "page": 111,
+            "children": []
+          },
+          {
+            "title": "Procedures as General Methods",
+            "page": 117,
+            "children": []
+          },
+          {
+            "title": "Procedures as Returned Values",
+            "page": 125,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Building Abstractions with Data",
+    "page": 135,
+    "children": [
+      {
+        "title": "Introduction to Data Abstraction",
+        "page": 140,
+        "children": [
+          {
+            "title": "Example: Arithmetic Operations for Rational Numbers",
+            "page": 141,
+            "children": []
+          },
+          {
+            "title": "Abstraction Barriers",
+            "page": 146,
+            "children": []
+          },
+          {
+            "title": "What Is Meant by Data?",
+            "page": 150,
+            "children": []
+          },
+          {
+            "title": "Extended Exercise: Interval Arithmetic",
+            "page": 154,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Hierarchical Data and the Closure Property",
+        "page": 160,
+        "children": [
+          {
+            "title": "Representing Sequences",
+            "page": 162,
+            "children": []
+          },
+          {
+            "title": "Hierarchical Structures",
+            "page": 174,
+            "children": []
+          },
+          {
+            "title": "Sequences as Conventional Interfaces",
+            "page": 182,
+            "children": []
+          },
+          {
+            "title": "Example: A Picture Language",
+            "page": 200,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Symbolic Data",
+        "page": 220,
+        "children": [
+          {
+            "title": "Quotation",
+            "page": 220,
+            "children": []
+          },
+          {
+            "title": "Example: Symbolic Differentiation",
+            "page": 225,
+            "children": []
+          },
+          {
+            "title": "Example: Representing Sets",
+            "page": 232,
+            "children": []
+          },
+          {
+            "title": "Example: Huffman Encoding Trees",
+            "page": 246,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Multiple Representations for Abstract Data",
+        "page": 257,
+        "children": [
+          {
+            "title": "Representations for Complex Numbers",
+            "page": 259,
+            "children": []
+          },
+          {
+            "title": "Tagged data",
+            "page": 265,
+            "children": []
+          },
+          {
+            "title": "Data-Directed Programming and Additivity",
+            "page": 270,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Systems with Generic Operations",
+        "page": 282,
+        "children": [
+          {
+            "title": "Generic Arithmetic Operations",
+            "page": 282,
+            "children": []
+          },
+          {
+            "title": "Combining Data of Different Types",
+            "page": 290,
+            "children": []
+          },
+          {
+            "title": "Example: Symbolic Algebra",
+            "page": 301,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Modularity, Objects, and State",
+    "page": 322,
+    "children": [
+      {
+        "title": "Assignment and Local State",
+        "page": 324,
+        "children": [
+          {
+            "title": "Local State Variables",
+            "page": 325,
+            "children": []
+          },
+          {
+            "title": "The Benefits of Introducing Assignment",
+            "page": 333,
+            "children": []
+          },
+          {
+            "title": "The Costs of Introducing Assignment",
+            "page": 339,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "The Environment Model of Evaluation",
+        "page": 348,
+        "children": [
+          {
+            "title": "The Rules for Evaluation",
+            "page": 350,
+            "children": []
+          },
+          {
+            "title": "Applying Simple Procedures",
+            "page": 355,
+            "children": []
+          },
+          {
+            "title": "Frames as the Repository of Local State",
+            "page": 358,
+            "children": []
+          },
+          {
+            "title": "Internal Definitions",
+            "page": 365,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Modeling with Mutable Data",
+        "page": 369,
+        "children": [
+          {
+            "title": "Mutable List Structure",
+            "page": 370,
+            "children": []
+          },
+          {
+            "title": "Representing Queues",
+            "page": 381,
+            "children": []
+          },
+          {
+            "title": "Representing Tables",
+            "page": 388,
+            "children": []
+          },
+          {
+            "title": "A Simulator for Digital Circuits",
+            "page": 397,
+            "children": []
+          },
+          {
+            "title": "Propagation of Constraints",
+            "page": 414,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Concurrency: Time Is of the Essence",
+        "page": 429,
+        "children": [
+          {
+            "title": "The Nature of Time in Concurrent Systems",
+            "page": 431,
+            "children": []
+          },
+          {
+            "title": "Mechanisms for Controlling Concurrency",
+            "page": 438,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Streams",
+        "page": 456,
+        "children": [
+          {
+            "title": "Streams Are Delayed Lists",
+            "page": 458,
+            "children": []
+          },
+          {
+            "title": "Infinite Streams",
+            "page": 469,
+            "children": []
+          },
+          {
+            "title": "Exploiting the Stream Paradigm",
+            "page": 481,
+            "children": []
+          },
+          {
+            "title": "Streams and Delayed Evaluation",
+            "page": 498,
+            "children": []
+          },
+          {
+            "title": "Modularity of Functional Programs and Modularity of Objects",
+            "page": 506,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Metalinguistic Abstraction",
+    "page": 515,
+    "children": [
+      {
+        "title": "The Metacircular Evaluator",
+        "page": 520,
+        "children": [
+          {
+            "title": "The Core of the Evaluator",
+            "page": 522,
+            "children": []
+          },
+          {
+            "title": "Representing Expressions",
+            "page": 529,
+            "children": []
+          },
+          {
+            "title": "Evaluator Data Structures",
+            "page": 540,
+            "children": []
+          },
+          {
+            "title": "Running the Evaluator as a Program",
+            "page": 545,
+            "children": []
+          },
+          {
+            "title": "Data as Programs",
+            "page": 550,
+            "children": []
+          },
+          {
+            "title": "Internal Definitions",
+            "page": 554,
+            "children": []
+          },
+          {
+            "title": "Separating Syntactic Analysis from Execution",
+            "page": 562,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Variations on a Scheme \u2014 Lazy Evaluation",
+        "page": 569,
+        "children": [
+          {
+            "title": "Normal Order and Applicative Order",
+            "page": 570,
+            "children": []
+          },
+          {
+            "title": "An Interpreter with Lazy Evaluation",
+            "page": 572,
+            "children": []
+          },
+          {
+            "title": "Streams as Lazy Lists",
+            "page": 583,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Variations on a Scheme \u2014 Nondeterministic Computing",
+        "page": 587,
+        "children": [
+          {
+            "title": "Amb and Search",
+            "page": 589,
+            "children": []
+          },
+          {
+            "title": "Examples of Nondeterministic Programs",
+            "page": 595,
+            "children": []
+          },
+          {
+            "title": "Implementing the amb Evaluator",
+            "page": 606,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Logic Programming",
+        "page": 622,
+        "children": [
+          {
+            "title": "Deductive Information Retrieval",
+            "page": 627,
+            "children": []
+          },
+          {
+            "title": "How the Query System Works",
+            "page": 643,
+            "children": []
+          },
+          {
+            "title": "Is Logic Programming Mathematical Logic?",
+            "page": 655,
+            "children": []
+          },
+          {
+            "title": "Implementing the Query System",
+            "page": 663,
+            "children": [
+              {
+                "title": "The Driver Loop and Instantiation",
+                "page": 663,
+                "children": []
+              },
+              {
+                "title": "The Evaluator",
+                "page": 666,
+                "children": []
+              },
+              {
+                "title": "Finding Assertions by Pattern Matching",
+                "page": 670,
+                "children": []
+              },
+              {
+                "title": "Rules and Unification",
+                "page": 673,
+                "children": []
+              },
+              {
+                "title": "Maintaining the Data Base",
+                "page": 679,
+                "children": []
+              },
+              {
+                "title": "Stream Operations",
+                "page": 682,
+                "children": []
+              },
+              {
+                "title": "Query Syntax Procedures",
+                "page": 684,
+                "children": []
+              },
+              {
+                "title": "Frames and Bindings",
+                "page": 687,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Computing with Register Machines",
+    "page": 694,
+    "children": [
+      {
+        "title": "Designing Register Machines",
+        "page": 696,
+        "children": [
+          {
+            "title": "A Language for Describing Register Machines",
+            "page": 700,
+            "children": []
+          },
+          {
+            "title": "Abstraction in Machine Design",
+            "page": 706,
+            "children": []
+          },
+          {
+            "title": "Subroutines",
+            "page": 709,
+            "children": []
+          },
+          {
+            "title": "Using a Stack to Implement Recursion",
+            "page": 714,
+            "children": []
+          },
+          {
+            "title": "Instruction Summary",
+            "page": 723,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "A Register-Machine Simulator",
+        "page": 724,
+        "children": [
+          {
+            "title": "The Machine Model",
+            "page": 726,
+            "children": []
+          },
+          {
+            "title": "The Assembler",
+            "page": 732,
+            "children": []
+          },
+          {
+            "title": "Generating Execution Procedures for Instructions",
+            "page": 736,
+            "children": []
+          },
+          {
+            "title": "Monitoring Machine Performance",
+            "page": 746,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Storage Allocation and Garbage Collection",
+        "page": 751,
+        "children": [
+          {
+            "title": "Memory as Vectors",
+            "page": 752,
+            "children": []
+          },
+          {
+            "title": "Maintaining the Illusion of Infinite Memory",
+            "page": 759,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "The Explicit-Control Evaluator",
+        "page": 769,
+        "children": [
+          {
+            "title": "The Core of the Explicit-Control Evaluator",
+            "page": 771,
+            "children": []
+          },
+          {
+            "title": "Sequence Evaluation and Tail Recursion",
+            "page": 779,
+            "children": []
+          },
+          {
+            "title": "Conditionals, Assignments, and Definitions",
+            "page": 784,
+            "children": []
+          },
+          {
+            "title": "Running the Evaluator",
+            "page": 787,
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Compilation",
+        "page": 795,
+        "children": [
+          {
+            "title": "Structure of the Compiler",
+            "page": 800,
+            "children": []
+          },
+          {
+            "title": "Compiling Expressions",
+            "page": 807,
+            "children": []
+          },
+          {
+            "title": "Compiling Combinations",
+            "page": 816,
+            "children": []
+          },
+          {
+            "title": "Combining Instruction Sequences",
+            "page": 825,
+            "children": []
+          },
+          {
+            "title": "An Example of Compiled Code",
+            "page": 830,
+            "children": []
+          },
+          {
+            "title": "Lexical Addressing",
+            "page": 845,
+            "children": []
+          },
+          {
+            "title": "Interfacing Compiled Code to the Evaluator",
+            "page": 850,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
