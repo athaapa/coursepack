@@ -3,7 +3,7 @@ import os
 import subprocess
 from datetime import datetime, time, timedelta
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 import typing_extensions as typing
 from dotenv import load_dotenv

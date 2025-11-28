@@ -64,6 +64,5 @@
   "quarter": {
     "start": "2026-01-05",
     "lectures_per_week": 3
-  },
-  "gemini_api_key": "AIzaSyAX51DBlOVuYP9m3_RpCG-wSaghV1g3LTU"
+  }
 }
